@@ -1,6 +1,6 @@
-# tourism
-
-A new Flutter project.
+# Greek Tourism
+    Simple app showcasing my travels to Greece. 
+    Written in Dart and built with flutter framework.
 
 ## Getting Started
 
