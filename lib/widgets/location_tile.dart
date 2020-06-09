@@ -35,7 +35,7 @@ class LocationTile extends StatelessWidget {
             style: Theme.of(context).textTheme.subtitle2,
           ),
           Text(
-            location.tourPackageName.toUpperCase(),
+            location.notes.toUpperCase(),
             style:
                 Theme.of(context).textTheme.caption.copyWith(color: textColor),
           ),

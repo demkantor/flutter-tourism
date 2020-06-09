@@ -6,7 +6,7 @@ class Location {
   final String name;
   final String imagePath;
   final String dateTaken;
-  final String tourPackageName;
+  final String notes;
   final List<LocationFact> facts;
 
   Location({
@@ -14,7 +14,7 @@ class Location {
     this.name,
     this.imagePath,
     this.dateTaken,
-    this.tourPackageName,
+    this.notes,
     this.facts,
   });
 
@@ -25,7 +25,7 @@ class Location {
         name: 'Satorini, Greece',
         imagePath: 'assets/images/santorini.jpg',
         dateTaken: 'June 23, 2013',
-        tourPackageName: 'Standard Package',
+        notes: 'Built Into Cliffs',
         facts: [
           LocationFact('How Satorini came to be',
               'Crescent-shaped Santorini (or Thíra), the precious gem of the Aegean, is actually a group of islands consisting of Thíra, Thirassiá, Asproníssi, Palea and Nea Kaméni in the southernmost part of Cyclades.'),
@@ -38,7 +38,7 @@ class Location {
         name: 'Satorini, Greece',
         imagePath: 'assets/images/santorini2.jpg',
         dateTaken: 'June 23, 2013',
-        tourPackageName: 'Standard Package',
+        notes: 'The Best Hotel',
         facts: [
           LocationFact('Explore the island’s towns',
               'Firá is the picturesque capital of the island; perched high up on the edge of the Caldera, it looks like a marvellous painting.'),
@@ -51,7 +51,7 @@ class Location {
         name: 'Satorini, Greece',
         imagePath: 'assets/images/santorini3.jpg',
         dateTaken: 'June 25, 2013',
-        tourPackageName: 'Standard Package',
+        notes: 'Unparalled Beauty',
         facts: [
           LocationFact('Searching for romance',
               'Santorini is considered to be the most sought after place for a romantic getaway in Greece, since there are not many places in the world where you can enjoy exquisitely clear waters while perched on the rim of a massive active volcano in the middle of the sea!'),

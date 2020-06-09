@@ -12,7 +12,7 @@ class Locations extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text('Locations'),
+        title: Text('Visit Greece'),
       ),
       body: ListView.builder(
         itemCount: locations.length,
