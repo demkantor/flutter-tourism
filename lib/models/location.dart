@@ -59,6 +59,19 @@ class Location {
               'A trip to Santorini with the other half is a dream for anyone who has seen at least one photo of the island’s famous Caldera and exchanging kisses beneath Santorini’s famous sunset is the ultimate romantic experience!'),
         ],
       ),
+      Location(
+        id: 4,
+        name: 'Satorini, Greece',
+        imagePath: 'assets/images/santorini4.jpg',
+        dateTaken: 'June 25, 2013',
+        notes: 'Silent Noise of Bliss',
+        facts: [
+          LocationFact('A different view',
+              'There are more churches than houses on the island, although most of these are very small and private.'),
+          LocationFact('Vineyards galore',
+              'Wine is a major industry here. The hot, dry climate is perfect for growing grapes, and if you like to visit wineries and go wine tasting, you’ll love Santorini. By the way, the vines are grown in coils on the ground, rather than on a trellis like you typically see in many other vineyards around the world. '),
+        ],
+      ),
     ];
   }
 
